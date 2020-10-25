@@ -1,0 +1,14 @@
+
+.w-bg{
+    background-color: #111430;
+    height: 600px;
+}
+.f-bg{
+    background-color: #FBD062;
+    height: auto;
+}
+.b-bg{
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
+    background-color: #FBD062;
+    height: 600px;
+}

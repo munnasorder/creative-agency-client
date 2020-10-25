@@ -1,0 +1,83 @@
+body{
+  font-weight: 400 !important;
+}
+nav{
+  box-shadow: 0 0 0 !important;
+}
+
+.uploadBtn {
+  top: 150px;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 2px solid #49dc8b;
+  text-align: center;
+  background-color: #DEFFED;
+  cursor: pointer;
+}
+.styleInput{
+  overflow:hidden;
+  z-index: -1;
+  position: absolute;
+}
+
+input#file {
+  display: inline-block;
+  width: 46%;
+  padding: 50px 0 0 0;
+  height: 20px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #49dc8b;
+  text-align: center;
+  background-color: #DEFFED;
+}
+input#file:focus{
+  outline: none !important;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+      column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+      column-count: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+      column-count: 4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+      column-count: 5;
+  }
+}
+
+.brand-dark-btn, .brand-green-btn{
+  padding: 10px 61px;
+  background-color: #111430;
+  color: white;
+  font-weight: 400;
+  font-feature-settings: normal;
+  font-variant: normal;
+  border: none;
+  border-radius: 7px;
+}
+.brand-dark-btn:focus, .brand-dark-btn:focus{
+  outline: none !important;
+}
+.brand-green-btn{
+  background-color: #009444;
+}
